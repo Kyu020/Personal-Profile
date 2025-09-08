@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="theme-purple">
+    <main>
+        <article class="profile-card">
+            <header>
+                <figure>
+                    <img src="aaron.jpg" alt="Aaron Jan Estacio profile photo">
+                </figure>
+                <h1 class="name">Aaron Jan Estacio</h1>
+                <p class="title">Backend Developer</p>
+            </header>
+            
+            <section class="bio">
+                An aspiring IT dedicated to facing challenges with motivation and perseverance. Eager to learn, grow and contribute to dynamic work environment. 
+                Known for being adaptable, responsible, and committed to developing new skills. 
+            </section>
+            
+            <nav class="social-links" aria-label="Social media links">
+                <a href="https://www.facebook.com/aaronjan.borromeoestacio" class="social-link" title="Facebook" target="_blank" rel="noopener">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/ayja.kyu" class="social-link" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://github.com/Kyu020" class="social-link" title="Github">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/aaron-jan-estacio-5a1b98298" class="social-link" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </nav>
+            
+            <section>
+                <button class="interactive-button" onclick="showAboutMe()">
+                    About Me
+                </button>
+                
+                <button class="interactive-button" onclick="changeTextColor()">
+                    Change Theme Color
+                </button>
+                
+                <p class="color-text" id="colorText">Click the button above to change my color!</p>
+            </section>
+
+            <aside class="about-me-card" id="aboutMeCard">
+                <h2>About Me</h2>
+                <dl>
+                    <dt>Full Name:</dt>
+                    <dd>Aaron Jan Estacio</dd>
+                    <dt>Birthday:</dt>
+                    <dd>January 20, 2005</dd>
+                    <dt>Domain Email:</dt>
+                    <dd>202310341@gordoncollege.edu.ph</dd>
+                    <dt>Personal Email</dt>
+                    <dd>aaronjanestacio20@gmail.com</dd>
+                    <dt>Age:</dt>
+                    <dd>20</dd>
+                    <dt>Sex:</dt>
+                    <dd>Male</dd>
+                </dl>
+            </aside>
+
+        </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
